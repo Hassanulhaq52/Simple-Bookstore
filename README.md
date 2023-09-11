@@ -14,13 +14,19 @@ The Simple Bookstore App is a Flutter application that allows users to browse an
 ## Screenshots
 
 ![WhatsApp Image 2023-09-12 at 4 01 49 AM (1)](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/9005485a-fdbf-4705-a772-e100eb6ad0a1)
+
 ![WhatsApp Image 2023-09-12 at 4 01 49 AM](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/bfe56d34-a5d9-46e1-8ebf-f9077ab54f4d)
+
 ![WhatsApp Image 2023-09-12 at 4 01 48 AM (1)](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/9ea03b82-12a5-442d-b1e3-787f85e5b13e)
+
 ![WhatsApp Image 2023-09-12 at 4 01 48 AM](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/b3b8d135-5b62-4b93-9be8-49d3b31d127e)
+
 ![WhatsApp Image 2023-09-12 at 4 01 47 AM (2)](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/6f3857fb-b146-4c3f-a0e3-1e6578a6aad3)
+
 ![WhatsApp Image 2023-09-12 at 4 01 47 AM](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/9e13c43f-485b-4d6e-8c05-04f5b497b230)
-![WhatsApp Image 2023-09-12 at 4 01 47 AM (1)](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/5e29decb-67ac-4
-![WhatsApp Image 2023-09-12 at 4 01 46 AM](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/f1c8368f-781b-4cce-ad81-c60bea498ece)
+
+![WhatsApp Image 2023-09-12 at 4 01 47 AM (1)](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/0e029a30-a3a8-4728-81d9-7e1e75f30ba4)
+
 ![WhatsApp Image 2023-09-12 at 4 01 46 AM](https://github.com/Hassanulhaq52/Simple-Bookstore/assets/81625175/bb6f3d1c-c20c-4aea-83ae-1e6badc3dc5f)
 
 
