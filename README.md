@@ -48,6 +48,19 @@ Before you begin, ensure you have met the following requirements:
    ```shell
    git clone https://github.com/your-username/simple_bookstore.git
 
+
+2. Change the current directory to the project folder:
+
+```shell
+cd simple_bookstore
+
+
+1. Install dependencies using flutter pub get:
+
+   ```shell
+ flutter pub get
+
+
 Explore the Simple Bookstore App on your device or emulator.
 
 Troubleshooting
