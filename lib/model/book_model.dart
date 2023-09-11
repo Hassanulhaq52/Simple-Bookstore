@@ -1,13 +1,3 @@
-// class Book {
-//   final String title;
-//   final String author;
-//   final double price;
-//   final String description;
-//   final String image;
-//
-//   Book(this.title, this.author, this.price, this.description, this.image);
-// }
-
 class BooksModel {
   final String title;
   final String author;
@@ -39,7 +29,6 @@ class BooksModel {
     );
   }
 
-  // Convert a Book object to a Map<String, dynamic>
   Map<String, dynamic> toJson() {
     return {
       'title': title,
@@ -51,6 +40,12 @@ class BooksModel {
       'id': id,
     };
   }
-
-
 }
+
+
+
+
+
+
+
+
