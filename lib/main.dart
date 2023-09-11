@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:simple_bookstore/screens/book_details_screen.dart';
-import 'package:simple_bookstore/screens/home_screen.dart';
-import 'package:simple_bookstore/utils/constants.dart';
 
-import '../model/book_model.dart';
+import 'package:simple_bookstore/screens/home_screen.dart';
+
 import '../model/cart.dart';
 
 void main() async {
@@ -13,7 +11,6 @@ void main() async {
     await cart.loadFromPrefs();
   } catch (e) {
     print('Error loading cart data: $e');
-    // Handle the error gracefully, e.g., by initializing an empty cart.
   }
   runApp(MyApp(cart: cart));
 }
@@ -27,17 +24,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Simple Bookstore App',
-      home: HomeScreen(cart: cart,),
+      home: HomeScreen(
+        cart: cart,
+      ),
     );
   }
-
-
-
-
-
-
-
-
-
-
-
+}

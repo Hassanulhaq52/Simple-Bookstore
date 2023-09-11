@@ -14,15 +14,14 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int cartItemCount = 0; // Initialize cartItemCount
+  int cartItemCount = 0;
 
   @override
   void initState() {
     super.initState();
-    updateCartItemCount(); // Initialize cartItemCount when the screen is created
+    updateCartItemCount();
   }
 
-  // Function to update cart item count
   void updateCartItemCount() {
     setState(() {
       cartItemCount = widget.cart.items.length;
@@ -31,8 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void dispose() {
-    widget.cart
-        .saveToPrefs(); // Save cart data to SharedPreferences when the app is closed
+    widget.cart.saveToPrefs();
     super.dispose();
   }
 
@@ -40,28 +38,23 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bookstore'),
+        title: const Text('Bookstore'),
         actions: [
           Stack(
             alignment: Alignment.topRight,
             children: [
               IconButton(
-                icon: Icon(Icons.shopping_cart),
-                onPressed: () async {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return CartScreen(cart: widget.cart);
-                      },
-                    ),
-                  ).then((_) {
-                    setState(() {
-                      cartItemCount = widget.cart.getCartItemCount();
+                  icon: const Icon(Icons.shopping_cart),
+                  onPressed: () async {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) {
+                      return CartScreen(cart: widget.cart);
+                    })).then((_) {
+                      setState(() {
+                        cartItemCount = widget.cart.getCartItemCount();
+                      });
                     });
-                  });
-                },
-              ),
+                  }),
               cartItemCount > 0
                   ? CircleAvatar(
                       radius: 10.0,
@@ -69,14 +62,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       foregroundColor: Colors.white,
                       child: Text(
                         cartItemCount.toString(),
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 12.0,
-                        ),
+                        style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 12.0),
                       ),
                     )
-                  : SizedBox.shrink(),
-              // Hide the indicator if cartItemCount is 0
+                  : const SizedBox.shrink(),
             ],
           ),
         ],
@@ -85,20 +74,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

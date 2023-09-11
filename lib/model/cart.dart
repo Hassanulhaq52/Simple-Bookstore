@@ -1,5 +1,3 @@
-
-
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 
@@ -51,7 +49,7 @@ class Cart {
       if (cartDataLoad != null) {
         final Iterable decoded = jsonDecode(cartDataLoad);
         final List<CartItem> loadedCart =
-        decoded.map((item) => CartItem.fromJson(item)).toList();
+            decoded.map((item) => CartItem.fromJson(item)).toList();
         items.clear();
         items.addAll(loadedCart);
         print('Cart data loaded successfully.');
@@ -92,16 +90,3 @@ class Cart {
     return items.length;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
