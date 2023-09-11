@@ -43,42 +43,20 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
+
 1. Clone the repository:
 
    ```shell
    git clone https://github.com/your-username/simple_bookstore.git
 
 
-2. Change the current directory to the project folder:
+### Usage 
+
+2. After successfully running **flutter pub get**, start the app using **flutter run**:
 
 ```shell
-cd simple_bookstore
+flutter run
+
+### ataching
 
 
-1. Install dependencies using flutter pub get:
-
-   ```shell
- flutter pub get
-
-
-Explore the Simple Bookstore App on your device or emulator.
-
-Troubleshooting
-If you encounter any issues or errors during setup or while running the app, please refer to the Flutter documentation or seek assistance from the Flutter community.
-
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-Flutter
-Bloc
-shared_preferences
-[Insert any other libraries or resources you used]
-Contact
-If you have any questions or feedback, please feel free to contact the project maintainers:
-
-Your Name
-Your Co-Maintainer's Name (if applicable)
