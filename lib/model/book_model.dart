@@ -7,15 +7,14 @@ class BooksModel {
   String id;
   final int? quantity;
 
-  BooksModel({
-    required this.title,
-    required this.author,
-    required this.price,
-    required this.description,
-    required this.image,
-    this.quantity = 1,
-    required this.id,
-  });
+  BooksModel(
+      {required this.title,
+      required this.author,
+      required this.price,
+      required this.description,
+      required this.image,
+      this.quantity = 1,
+      required this.id});
 
   factory BooksModel.fromJson(Map<String, dynamic> json) {
     return BooksModel(
