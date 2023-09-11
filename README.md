@@ -41,8 +41,8 @@ Before you begin, ensure you have met the following requirements:
 - [Flutter](https://flutter.dev/docs/get-started/install) installed on your machine.
 - A code editor of your choice (e.g., Visual Studio Code, Android Studio, or IntelliJ IDEA).
 
-### Installation
 
+### Installation
 
 1. Clone the repository:
 
@@ -56,7 +56,4 @@ Before you begin, ensure you have met the following requirements:
 
 ```shell
 flutter run
-
-### ataching
-
 
