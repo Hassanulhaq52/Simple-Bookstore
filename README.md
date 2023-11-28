@@ -47,7 +47,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/simple_bookstore.git
+   git clone https://github.com/Hassanulhaq52/simple_bookstore.git
 
 
 ### Usage 
